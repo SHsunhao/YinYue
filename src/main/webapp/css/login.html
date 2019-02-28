@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>login</title>
+    <!--背景样式引入-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+
+
+
+    <!--矢量图标引入-->
+    <link rel="stylesheet" href="font_1056523_j2cdr1toje/iconfont.css" />
+
+    <script type="text/javascript" src="font_1056523_j2cdr1toje/iconfont.js" ></script>
+
+
+    <style>
+        .icon {
+            width: 3em;
+            height: 3em;
+            vertical-align: -0.15em;
+            /*fill: currentColor;*/
+            color: #0C0C0C;
+            overflow: hidden;
+        }
+
+        #i1{
+            color:#4E5465;
+            font-size: large;
+        }
+    </style>
+
+
+
+</head>
+<body>
+<div class="container demo-1">
+    <div class="content">
+        <div id="large-header" class="large-header">
+            <canvas id="demo-canvas"></canvas>
+            <div class="logo_box">
+
+
+                <div>
+                    <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-yinle"></use>
+                    </svg><i id="i1">想成为你最爱的音乐</i>
+                </div>
+
+
+                <form action="#" name="f" method="post">
+                    <div class="input_outer">
+                        <span class="u_user"></span>
+                        <input name="logname" class="text" style="color: #FFFFFF !important" type="text" placeholder="请输入账户">
+                    </div>
+                    <div class="input_outer">
+                        <span class="us_uer"></span>
+                        <input name="logpass" class="text" style="color: #FFFFFF !important; position:absolute; z-index:100;"value="" type="password" placeholder="请输入密码">
+                    </div>
+                    <div class="mb2"><a class="act-but submit" href="javascript:;" style="color: #FFFFFF">登录</a></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/TweenLite.min.js"></script>
+<script src="js/EasePack.min.js"></script>
+<script src="js/rAF.js"></script>
+<script src="js/demo-1.js"></script>
+</body>
+</html>
